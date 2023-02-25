@@ -1,2 +1,11 @@
 server:
   port: 8081
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: "https://github.com/techads12345/configrepo.git"
